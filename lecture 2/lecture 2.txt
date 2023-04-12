@@ -1,0 +1,37 @@
+1. what is meta charset
+2. what is viewboard
+3. blockquote cite, small ,del, mark.
+5. anchor links, relative, absolute, linking multiple pages, target blank
+6. giving id in html element and using that in href,target blank.
+7. mailto: , tel: , magnet: in anchor tag , image inside anchor tag..
+8. table, thead, tbody, tfoot,bgcolor
+9. table border, tr , th and td.
+10. colspan, rowspan in td.
+11. cellspacing and cellpadding in table.
+12. try replicate your class timetable using tables.
+13. what is hypertext reference.
+14. image as link.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14. using address tag for writing adress
