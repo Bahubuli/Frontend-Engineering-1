@@ -1,3 +1,5 @@
+Topic List:-
+
 1. what is meta charset
 2. what is viewboard
 3. blockquote cite, small ,del, mark.
@@ -13,7 +15,9 @@
 14. image as link.
 
 
+Homework :-
 
+Replicate your classes timetable using table in html with colors,colspan, th, etc.
 
 
 
