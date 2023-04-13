@@ -1,0 +1,23 @@
+topic list :- 
+
+1. form in html.
+2. why we need forms, login form, signup form.
+3. type input box text, email, password, color, submit, checkbox,
+ radio, date, time, datetime-local etc.
+4. placeholder, value, default value of color
+5. required attribute in input
+6. action attribute in the form, local, other url
+7. use of name attribute in input box, example = radio button.
+8. select and option, multiple.
+10. min and max range in input box.
+12. submit, reset, 
+13. fieldset and legend in form.
+14. input type submit v/s button type= "submit"
+15. how to reset using reset type button.
+16. payload in network to see how data in sent to backend.
+17. importance of name here.
+18. label in form and for attribute in label.
+19. why to use label instead of span, para or div.
+
+
+Hw :- 
