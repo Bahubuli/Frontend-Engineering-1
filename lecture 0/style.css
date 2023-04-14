@@ -1,0 +1,30 @@
+*
+{
+    font-size: 20px;
+}
+
+h1{
+    color:red;
+    background-color: cornflowerblue;
+}
+
+p span
+{
+    color:red;
+}
+
+
+.odd
+{
+    background-color: aqua;
+}
+
+.even
+{
+    background-color: chartreuse;
+}
+
+.one , .two
+{
+ font-size: 40px;
+}

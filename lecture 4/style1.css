@@ -1,0 +1,70 @@
+*
+{
+    color:blue
+}
+
+p
+{
+   font-size: 30px;
+}
+
+
+span
+{
+    color:brown;
+}
+
+p span 
+{
+    color:red;
+}
+
+p
+{
+    font-size:25px;
+}
+
+.nonveg
+{
+    color:red;
+}
+
+.veg 
+{
+    color:green;
+}
+
+#red
+{
+    color:red;
+}
+
+#green
+{
+    color:green;
+}
+
+#golden
+{
+    color:gold;
+}
+
+#blue
+{
+    color:blue;
+}
+
+#yellow
+{
+    color:yellow;
+}
+
+#cyan
+{
+    color:cyan;
+}
+
+.yellow
+{
+    color:darkorchid;
+}

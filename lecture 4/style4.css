@@ -1,0 +1,87 @@
+/* *
+{
+    color:skyblue;
+} */
+
+h1
+{
+    color:blue;
+}
+
+p
+{
+    color:orangered;
+}
+
+span
+{
+    color:brown;
+}
+
+p span
+{
+    color:black;
+}
+
+.veg
+{
+    color:green;
+}
+
+.nonveg
+{
+    color:red;
+}
+
+#red
+{
+    color:red;
+}
+
+#green
+{
+    color:green;
+}
+
+#yellow
+{
+    color:yellow;
+}
+
+#navy
+{
+    color:navy;
+}
+
+#gold
+{
+    color:gold;
+}
+
+.sad , 
+.angry
+{
+    color:aqua
+}
+
+.happy,
+.hero
+{
+    color:green;
+}
+
+.last
+{
+    color:blueviolet;
+}
+
+
+#last
+{
+    color:darkorange;
+}
+
+.last
+{
+    color:pink
+}

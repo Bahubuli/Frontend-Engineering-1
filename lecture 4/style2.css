@@ -1,0 +1,61 @@
+*
+{
+    color:blue;
+}
+
+p span 
+{
+    color:red;
+}
+
+.nonveg
+{
+    color:red;
+}
+
+.veg 
+{
+    color:green;
+}
+
+
+#red
+{
+    color:red;
+}
+
+#golden
+{
+    color:gold;
+}
+
+#cyan
+{
+    color:cyan
+}
+
+#brown
+{
+    color:brown;
+}
+
+#navy
+{
+    color:navy;
+}
+
+#yellow
+{
+    color:yellow;
+}
+
+
+#last
+{
+    color:blue;
+}
+
+.last
+{
+    color:aqua;
+}

@@ -1,0 +1,77 @@
+span
+{
+    color:greenyellow;
+    font-size:23px;
+}
+
+p
+{
+    color:brown;   
+}
+
+p
+{
+    color:aqua;
+}
+
+p
+{
+    color:orangered;
+}
+
+
+p span
+{
+    color:blue;
+}
+
+/* 
+*
+{
+    color:deeppink;
+} */
+
+
+.veg
+{
+    color:green;
+}
+
+.nonveg
+{
+    color:red;
+}
+
+#green
+{
+    color:green;
+}
+
+#yellow
+{
+    color:yellow;
+}
+
+#navy
+{
+    color:navy
+}
+
+#golden
+{
+    color:gold;
+}
+
+#orange
+{
+    color:orange;
+}
+
+#last
+{
+    color:gray;
+}
+.last
+{
+    color:aquamarine;
+}
