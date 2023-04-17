@@ -1,0 +1,103 @@
+/* ul>li
+{
+    color:red;
+} */
+
+/* ul li
+{
+    color:red;
+} */
+
+/* ul p
+{
+    color:red;
+}  */
+
+/* li+li
+{
+    color:red;
+} */
+/* 
+li~li
+{
+    color:red;
+} */
+
+/* p~li
+{
+    color:red;
+} */
+
+/* p[class]
+{
+    color:red;
+}
+
+a[href]
+{
+    color:blue;
+} */
+
+/* a[href^="https"]
+{
+    color:green;
+} */
+
+/* a[href$="org"]
+{
+    color:pink;
+} */
+
+/* a[href*="code"]
+{
+    color:limegreen;
+} */
+
+/* li:hover 
+{
+    font-size:25px;
+    background-color: aqua;
+} */
+
+/* li:active 
+{
+    background-color: pink;
+}
+
+input:focus
+{
+    background-color: antiquewhite;
+}
+
+button:hover
+{
+    background-color: chartreuse; 
+}
+
+button:active
+{
+    background-color: orangered;
+}
+
+li:first-child,
+li:last-child
+{
+    color:red;
+}
+
+p:last-child
+{
+    color:blue;
+}
+
+*/
+
+/* li:nth-child(2n+3)
+{
+color:red;
+} */
+
+li:nth-child(2n+7)
+{
+color:red;
+}

@@ -1,0 +1,102 @@
+/* ul>li
+{
+    color:red;
+}
+
+div>p
+{
+  color:blue;
+} */
+
+/* li+li
+{
+    color:blue;
+} */
+
+/* li~p
+{
+    color:blue;
+} */
+
+/* div li 
+{
+    color:red;
+} */
+
+
+p[class]
+{
+    color:red;
+}
+/* 
+a[href]
+{
+    color:aqua;
+} */
+
+li:hover
+{
+    font-size:25px;
+}
+
+input:focus
+{
+    background-color: yellow;
+}
+
+li:active
+{
+    background-color: cyan;
+}
+
+
+
+button:hover
+{
+    background-color: greenyellow;
+}
+button:active
+{
+    background-color: blue;
+}
+
+/* a[href^="https"]
+{
+    color:fuchsia;
+} */
+
+a[href$="in"]
+{
+    color:blue;
+}
+
+a[href$="org"]
+{
+    color:green;
+}
+
+a[href*="code"]
+{
+    color:crimson;
+}
+
+/* p:first-child,
+li:last-child
+{
+    color:red;
+} */
+
+/* li:nth-child(3n+2)
+{
+    color:red;
+} */
+
+/* li:nth-child(2n+4)
+{
+    color:red;
+} */
+
+li:nth-last-child(-2n+2)
+{
+    color:blue;
+}
