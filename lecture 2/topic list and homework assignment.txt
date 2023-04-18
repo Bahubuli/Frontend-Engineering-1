@@ -12,7 +12,7 @@ Topic List:-
 11. cellspacing and cellpadding in table.
 12. try replicate your class timetable using tables.
 13. what is hypertext reference.
-14. image as link.
+14. image as link
 
 
 Homework :-
