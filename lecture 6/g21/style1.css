@@ -1,0 +1,20 @@
+/* li ul
+{
+    display: none;
+}
+
+li:hover>ul
+{
+    display:block;
+} */
+
+li li 
+{
+    display: none;
+}
+
+li:hover>*>li 
+{
+    display: block;
+}
+

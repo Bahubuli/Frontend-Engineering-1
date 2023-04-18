@@ -1,0 +1,52 @@
+/* li>ul,
+li>ol
+{
+    display: none;
+}
+
+li:hover>ul
+{
+    display: block;
+}
+
+li:hover>ol
+{
+    display: block;
+} */
+
+li li 
+{
+    display: none;
+}
+
+li:hover>*>li
+{
+    display: block;
+}
+
+/* write css to 
+change label size and color
+when clicked on radio button
+ */
+
+ input[type="radio"]:checked+label
+ {
+    font-size: 25px;
+    color:lime;
+ }
+/* 
+ p::first-letter
+ {
+    font-size:40px;
+ }
+
+ p::first-line
+ {
+    background-color: aliceblue;
+ } */
+
+
+ .phone::after
+ {
+    content: '\260F';
+ }

@@ -1,0 +1,55 @@
+/* li>ul
+{
+    display: none;
+}
+
+li:hover>ul
+{
+    display: block;
+} */
+
+li li
+{
+    display: none;
+}
+
+/* li:hover>ul>li
+{
+    display:block;
+}
+
+li:hover>ol>li
+{
+    display:block;
+} */
+
+li:hover>*>li
+{
+    display: block;
+}
+
+input[type="radio"]:checked+label
+{
+    font-size:35px;
+    color:lime;
+}
+
+/* p::first-letter
+{
+    font-size:35px;
+}
+
+p::first-line
+{
+    color:orangered
+} */
+
+/* .phone::before
+{
+    content: "phone: ";
+} */
+
+.phone::before
+{
+    content:"\260E";
+}
