@@ -36,4 +36,4 @@
 37. abbreviation tag using abbr and title.
 39. dl dt dd --> discription list , discription title, discription data
 40. comments in html,
-41. img src, height and width of image 
+41. img src, height and width of image.
