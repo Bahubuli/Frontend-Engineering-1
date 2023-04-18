@@ -13,5 +13,5 @@
 14. structural pseudo class first-child, last-child.
 15. active v/s focus
 16. substring matching ^=, $=, *= 
-17. specifically target specific child, nth-child, nth-last-child
+17. specifically target specific child, nth-child, nth-last-child.
 
