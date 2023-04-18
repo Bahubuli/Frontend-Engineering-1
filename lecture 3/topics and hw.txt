@@ -10,7 +10,7 @@ topic list :-
 7. use of name attribute in input box, example = radio button.
 8. select and option, multiple.
 10. min and max range in input box.
-12. submit, reset, 
+12. submit, reset.
 13. fieldset and legend in form.
 14. input type submit v/s button type= "submit"
 15. how to reset using reset type button.
