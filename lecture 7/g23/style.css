@@ -1,0 +1,98 @@
+/* p
+{
+    font-size: 25px;
+} */
+
+/* div
+{
+    font-size: 20px;
+} */
+
+/* body
+{
+    font-size: 20px;
+}
+p
+{
+    font-size:3em;
+} */
+
+/* div
+{
+    font-size: 5rem;
+}
+
+p
+{
+    font-size: 2rem;
+} */
+
+/* p
+{
+    font-size: initial;
+}
+div
+{
+    font-size: 40px;
+} */
+
+/* p
+{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* p
+{
+    line-height: 80px;
+} */
+/* 
+h1
+{
+    text-shadow: 5px 5px 5px red,
+    -5px -5px 5px red
+    ;
+} */
+
+ul
+{
+    list-style: circle;
+    /* list-style-position: inside; */
+    list-style-image: url("download.png");
+}
+li
+{
+    border:2px solid black;
+}
+
+/* .mydiv
+{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: orangered;
+    border-radius: 50%;
+    
+} */
+
+
+/* div
+{
+    border:5px dashed green;
+    width: 200px;
+    height:50px;
+    padding:10px 20px 50px;
+    padding-left: 50px; 
+     margin-left: 100px;
+    margin: 50px 80px 60px;
+} 
+
+*/
+
+div
+{
+    height:50px;
+    width:50px;
+    border:4px dashed blue;
+    display: inline;
+}

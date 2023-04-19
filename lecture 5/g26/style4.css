@@ -17,7 +17,7 @@
 {
     color:red;
 } */
-/* 
+/*
 li~li
 {
     color:red;
@@ -53,13 +53,13 @@ a[href]
     color:limegreen;
 } */
 
-/* li:hover 
+/* li:hover
 {
     font-size:25px;
     background-color: aqua;
 } */
 
-/* li:active 
+ li:active
 {
     background-color: pink;
 }
@@ -68,10 +68,10 @@ input:focus
 {
     background-color: antiquewhite;
 }
-
+/*
 button:hover
 {
-    background-color: chartreuse; 
+    background-color: chartreuse;
 }
 
 button:active

@@ -1,0 +1,102 @@
+/* 
+p
+{
+    font-size:25px;
+} */
+
+/* div
+{
+    font-size:20px
+} */
+/* p
+{
+    font-size:3em;
+}
+div
+{
+    font-size: 20px;
+} */
+
+/* html
+{
+    font-size: 10px;
+} */
+/* div
+{
+    font-size: 5rem;
+}
+
+p
+{
+    font-size: 2rem;
+} */
+
+/* div
+{
+    font-size: 5em;
+}
+
+p
+{
+    font-size: 2em;
+} */
+
+ /* div
+{
+    height:100px;
+    width: 300px;
+    border: 2px dashed blue;
+}
+p
+{
+    border:2px dotted green;
+    width: 25%;
+}  */
+
+p
+{
+line-height: 50px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 200;
+font-style: italic;
+}
+
+h1
+{
+    text-shadow: 5px 5px 3px blue,
+    -5px -5px 3px red;
+}
+ul
+{
+    /* list-style: square; */
+    list-style-position: inside;
+    list-style-image: url("download.png");
+}
+
+li
+{
+    border:2px solid yellow;
+}
+
+.circle
+{
+    height:200px;
+    width: 200px;
+    background-color: orangered;
+    border: 2px solid pink;
+    border-radius: 50%;
+}
+
+.message
+{
+
+    background-color: aqua;
+    width: 200px;
+    border-radius:20px 20px 0px 20px ;
+  
+    
+    border: 10px solid blue;
+    padding: 10px 20px 30px;
+    margin: 50px 60px 70px;
+}
+
