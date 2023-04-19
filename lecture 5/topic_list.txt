@@ -10,7 +10,7 @@
 11. pseudo selectors using : for special state like visited, hover.
 12. active state.
 13. focus pseudo class for input, button.
-14. structural pseudo class first-child, last-child.
+14. structural pseudo class first-child, last-child
 15. active v/s focus
 16. substring matching ^=, $=, *= 
 17. specifically target specific child, nth-child, nth-last-child.
