@@ -1,0 +1,103 @@
+/* div
+{
+    height:200px;
+    width: 200px;
+    border:2px solid blue;
+    display: inline
+}
+
+div
+{
+    height:100px;
+    width: 100px;
+    border:2px solid blue;
+    display: inline-block;
+}
+span
+{
+    height:100px;
+    width:100px;
+    border:2px solid red;
+    display: block;
+}
+
+p
+{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    border:2px solid black;
+     white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis; 
+}
+
+p:hover
+{
+    overflow:scroll;
+   text-overflow: clip;
+} */
+/* 
+p
+{
+    opacity: 80%;
+}
+.minmax
+{
+    border:3px dashed orangered;
+    max-width: 900px;
+}
+
+div
+{
+    height:100px;
+    width:100px;
+    border:2px solid red;
+}
+
+.two
+{
+    visibility:hidden;
+}
+
+ .two
+{
+    display: none;
+}  */
+
+div
+{
+    height: 50px;
+    border:2px dotted black;
+    width: 300px;
+}
+
+.two
+{
+    position: relative;
+    top:20px;
+    left:50px;
+    background-color: gold;
+}
+
+.four
+{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.seven
+{
+    position:fixed;
+    bottom: 10px;
+    right: 80px;
+    background-color: aqua;
+}
+
+.five
+{
+    position: sticky;
+    background-color: fuchsia;
+    top:5px;
+}

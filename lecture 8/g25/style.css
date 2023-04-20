@@ -1,0 +1,78 @@
+/* p{
+    word-spacing: 30px;
+    letter-spacing: 4px;
+    border:2px solid red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p:hover 
+{
+    overflow: scroll;
+    text-overflow: clip;
+} */
+
+/* div
+{
+    height: 80px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 80px;
+}
+
+.two
+{
+    position: relative;
+    left:50px;
+    top:30px;
+    background-color: bisque;
+}
+
+.five
+{
+    position: fixed;
+    bottom: 20px;
+    right:80px;
+    background-color: darkcyan;
+}
+
+.eight
+{
+    position:sticky;
+    top:5px;
+    background-color: gold;
+}
+
+.seven
+{
+    position:absolute;
+    right:30px;
+    top:20px;
+} */
+
+div
+{
+    height: 100px;
+    width: 100px;
+    border:4px dashed lime;
+}
+
+/* .five
+{
+    visibility: hidden;
+} */
+
+.five
+{
+    display: none;
+}
+
+p
+{
+    opacity: 0%;
+}
+p:hover 
+{
+    opacity: 100%;
+}

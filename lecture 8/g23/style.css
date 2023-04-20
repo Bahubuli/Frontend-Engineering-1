@@ -1,0 +1,83 @@
+/* div
+{
+    height:100px;
+    width: 100px;
+    border:2px solid blue;
+    display: inline;
+}
+span
+{
+    border:2px solid red;
+    height:200px;
+    width: 200px;
+    display: block;
+}
+
+div
+{
+    height:50px;
+    width: 50px;
+    border:2px solid blue;
+    display: inline-block;
+}
+
+p
+{
+     border:2px solid black; 
+    word-spacing: 10px;
+    letter-spacing: 6px;
+    opacity: 80%;
+    
+} */
+
+/* .three
+{
+   opacity: 0%;
+}
+.three:hover
+{
+   opacity: 100%;
+} */
+
+/* .three
+{
+    visibility: hidden;
+} */
+
+/* .three
+{
+    display: none;
+}
+
+ .mypara
+{
+    border:2px solid red;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.mypara:hover
+{
+    overflow: scroll;
+    text-overflow:clip;
+}  */
+
+div
+{
+    height:100px;
+    width: 700px;
+    border:2px solid red;
+}
+
+.two
+{
+    position: relative;
+    top:20px;
+    left:50px;
+}
+
+.nine
+{
+    background-color:aqua;
+}
