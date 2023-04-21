@@ -13,4 +13,4 @@
 
 -------------------------------------------------
 remaining
-6. float positioning in css.
+6. float positioning in css..
