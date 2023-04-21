@@ -1,6 +1,6 @@
 1. white-space no wrap, overflow hidden,scroll.
 2. text-overflow,
-3. display inline, block,height and width.
+3. display inline, block,height and width..
 4. inline block, visibility, display v/s visibility.
 5. min-width, max-width, why not min-height ?
 
