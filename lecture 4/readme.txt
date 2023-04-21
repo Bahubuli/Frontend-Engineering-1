@@ -15,7 +15,7 @@ Topic List:-
 13. id tag in css, class in css.
 14. classes example with list with veg and nonveg menu items.
 15. class v/s id on same element.
-16. id example using a paint shop example..
+16. id example using a paint shop example.
 
 
 Homework :-
