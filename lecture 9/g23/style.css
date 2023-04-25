@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap'); */
+/* p
+{
+    background-color: aqua;
+    width: 600px;
+    z-index: 1;
+    
+}
+.fontpara
+{
+    background-color: chartreuse;
+    height: 80px;
+    position:relative;
+    top:-30px;
+    z-index: -1;
+} */
+
+/* p
+{
+    font-family:myfont;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Handlee/Handlee-Regular.ttf);
+} */
+
+/* .imgcontainer
+{
+    height:600px;
+    width: 600px;
+    border:2px solid;
+    background-image: url(./nature.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.imgcontainer
+{
+    all:revert; 
+} 
+*/
+
+.container
+{
+    height:600px;
+    width: 600px;
+    border:2px solid;
+}
+
+img
+{
+    height:150px;
+    width: 150px;
+    float:right;
+}
+.img2
+{
+    float: left;
+    height: 250px;
+}
+.p3
+{
+    clear:both;
+}

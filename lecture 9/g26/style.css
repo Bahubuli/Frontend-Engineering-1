@@ -1,4 +1,14 @@
 /* 
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:ital,wght@0,100;0,400;0,900;1,400&display=swap'); */
+
+
+/* p
+{
+    background-color: red;
+    z-index: 1;
+    font-family: Handlee;
+}
+
 .fontpara
 {
     font-family:myfont;
@@ -7,25 +17,29 @@
     top:-40px;
     height:70px;
     width: 250px;
-    z-index:-1;
+    z-index: -1;
+   
 }
+
 @font-face {
     font-family: myfont;
     src: url(./fonts//Handlee/Handlee-Regular.ttf);
-}
+} */
 
-.imgcontainer
+/* .imgcontainer
 {
     height:400px;
     width: 400px;
     border:2px solid black;
-    background-image: url(./nature.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    margin: 20px;
-}
+     background-image: url(./nature.webp);
+     background-repeat: no-repeat;
+      background-position: center;
+      background-size:cover;
+      margin: 20px; 
+} */
 
+
+/* 
 p
 {
     border:2px solid black;
@@ -35,7 +49,7 @@ p
     opacity: 80%;
 } */
 
-/* .container
+ /* .container
 {
     height:600px;
     width: 600px;
@@ -46,27 +60,27 @@ img
 {
     height: 150px;
     width: 150px;
-    float: left;
+    float:left;
 }
 
 .img2
 {
-    float: right;
-    height: 250px; 
+    float: right; 
+    height:250px; 
 }
 
 .p3
 {
     clear:both;
-}
-*/
+} */
+
 
 
 .para
 {
     width:500px;
     border:2px dotted blue;
-    text-align:center;
+    text-align: center;
     margin:auto
 }
 
