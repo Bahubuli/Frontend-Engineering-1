@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  
+  a 
+  {
+    color:black;
+  }
+    * 
+    {
+        margin: 0;
+    }
+    nav 
+    {
+        background-color: #5465ff;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 40px;
+        align-content: center;
+        justify-content: space-between;
+        padding:5px;
+    }
+
+    li
+    {
+        list-style: none;
+    }
+
+    ul 
+    {
+        list-style-type: none;
+    }
+
+    nav>div
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap:20px
+    }
+    .container
+    {
+        height:500px;
+        width: 500px;
+        border:2px solid black;
+        background-position: center;
+        background-size: contain;
+        background-image: url("https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+
+    @media screen and (max-width:400px) {
+
+        nav
+        {
+            grid-template-columns: 1fr;
+            height: auto;
+            justify-items: center;
+        }
+
+        nav>div 
+        {
+            grid-template-columns: 1fr;
+            gap:revert;
+        }
+
+        .container
+        {
+            height: 250px;
+            width: 250px;
+         
+        }
+        
+    }
+
+
+</style>
+<body>
+
+<nav>
+
+    <li><a>Home</a></li>
+    <div class="inner">
+        <li><a>Trending</a></li>
+        <li><a>Products</a></li>
+        <li><a>About us</a></li>
+    </div>
+    <li><a>Login</a></li>
+</nav>
+
+
+<div class="container">
+    <h1>this is image heading</h1>
+</div>
+
+
+    <!-- <div class="container">
+        <h1>This is heading for container</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita distinctio repellat voluptates molestias temporibus atque dolorum eum, quam minus iusto est doloribus ducimus quae debitis accusamus rerum beatae neque at illo id. Repellendus harum iste vero! Ex ipsum totam consequatur placeat alias aperiam distinctio quae architecto, rerum similique nemo repudiandae dolore consectetur soluta doloremque amet atque est, tempora in dolor a quam laudantium inventore quis. Debitis velit, libero eius odit perferendis molestias quasi, quia odio optio eligendi suscipit quisquam.</p>
+    </div> -->
+
+
+
+
+    
+</body>
+</html>

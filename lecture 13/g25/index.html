@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>media query</title>
+
+    <style>
+    /* .container 
+    {
+        border:2px dashed blue;
+        padding:30px;
+    } */
+
+    /* @media screen and (max-width:490px),(min-width:800px)
+    {
+        h1 
+        {
+            color:lime;
+            font-size:25px;
+        }
+
+    } */
+
+    /* @media screen  and (min-width:600px) and (max-width:900px){
+
+        h1 
+        {
+            background-color: aqua;
+        }
+        
+    } */
+ 
+
+    *
+     {
+        margin: 0;
+        padding: 0;
+     }
+    a 
+    {
+        color:black;
+    }
+    .navbar 
+    {
+        background-color: #ffd670;
+        display: grid;
+        height: 30px;
+        justify-content: space-around;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+    h1
+    {
+        color:white;
+    }
+
+    .midpart
+    {
+        display: grid;
+        gap:15px;
+        grid-template-columns: auto auto auto;
+    }
+    .imgcontainer
+    {
+        height: 400px;
+        width: 400px;
+        border:2px dotted brown;
+        margin: 50px;
+        background-size: contain;
+        background-image: url("https://images.unsplash.com/photo-1673168871243-89b73a919eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80");
+    }
+    @media screen and (max-width:290px)
+    {
+        
+        .navbar,.midpart
+        {
+            grid-template-columns: 1fr;
+            height: auto;
+            justify-items: center;
+        }
+
+        .midpart
+        {
+            gap:revert;
+        }
+    }
+@media  screen and (max-width:470px) {
+    .imgcontainer 
+        {
+            height: 200px;
+            width: 200px;
+        }
+}
+
+@media screen and (orientation:landscape)
+{
+    h1
+    {
+        color: yellow;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <div><a>Home</a></div>
+        <div class="midpart">
+            <div><a>Product</a></div>
+            <div><a>Trending</a></div>
+            <div><a>About us</a></div>
+        </div>
+        <div><a>Login</a></div>
+    </div>
+
+    <div class="imgcontainer">
+        <h1>this is a unsplash image</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
+        <h1>This is heading for container</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptate, numquam architecto praesentium magnam harum fugiat. Iusto cumque, maiores dolorem ullam voluptatibus corporis fugiat provident ab quidem expedita harum, reiciendis, molestiae delectus. Hic repudiandae laborum temporibus explicabo quas veniam expedita vitae aspernatur culpa labore! Dignissimos facere omnis autem iste labore velit, laborum eaque atque perferendis cupiditate natus, animi laboriosam! Aspernatur culpa tenetur aliquid minima, dolores consequatur labore omnis eaque eligendi iste alias placeat odit impedit reiciendis laboriosam exercitationem voluptates saepe?</p>
+
+    </div> -->
+    
+</body>
+</html>

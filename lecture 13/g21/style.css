@@ -1,0 +1,25 @@
+/* .container 
+{
+    border:2px dashed;
+    padding:80px
+}
+
+h1
+{
+    text-align: center;
+} */
+
+/*
+media query in range, and or operators 
+@media screen and (max-width:600px),(min-width:900px)
+{
+    h1 
+    {
+        color:blue;
+    }
+    p 
+    {
+        color:forestgreen
+    }
+
+} */
