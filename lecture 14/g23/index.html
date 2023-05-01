@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        /*  space-around vs space evenly*/
+        .flex-container 
+        {
+            background-color: beige;
+            height:500px;
+            border:2px dashed;
+            display: flex;
+            justify-content:space-around;
+            /* flex-direction: row; */
+            /* flex-wrap: wrap; */
+            flex-flow:row  wrap;
+            /* align-content: space-between; */
+             /* align-items: baseline; */
+
+        }
+
+        .item
+        {
+            height:80px;
+            width: 120px;
+            border:2px solid blue;
+        }
+
+        .item1 
+        {
+            background-color: brown;
+            /* order:-3; */
+            /* flex-grow:1; */
+            /* flex-shrink: 2; */
+            /* align-self: flex-start; */
+        }
+        .item2
+        {
+            background-color:green;
+            /* order:-1; */
+            /* flex-grow: 3; */
+            /* flex-shrink: 3; */
+            /* align-self: flex-end; */
+            font-size:30px;
+
+        }
+        .item3
+        {
+            background-color: aqua;
+            /* order:-2 */
+        }
+        .item4 
+        {
+            background-color: violet;
+        }
+        .item5 
+        {
+            background-color: orange;
+        }
+
+        .outer-container 
+        {
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+           justify-content: start;
+          border:2px dashed black;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="outer-container"> -->
+
+    
+    <div class="flex-container">
+        <div class="item item1">One</div>
+        <div class="item item2">Two</div>
+        <div class="item item3">Three</div>
+        <div class="item item4">Four</div>
+        <div class="item item5">Five</div>
+    </div>
+
+    <!-- <div class="flex-container">
+        <div class="item item1">One</div>
+        <div class="item item2">Two</div>
+        <div class="item item3">Three</div>
+        <div class="item item4">Four</div>
+        <div class="item item5">Five</div>
+    </div> -->
+
+<!-- </div> -->
+</body>
+</html>

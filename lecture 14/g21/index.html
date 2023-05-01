@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* justify-content: space-evenly| space-between | space-around */
+        .flex-container 
+        {
+            border:2px solid;
+            height:500px;
+            background-color: yellow;
+            display: flex;
+            flex-direction:row;
+            justify-content:space-evenly;
+            /* flex-wrap:wrap; */
+            /* align-content:space-around; */
+            align-items:baseline;
+
+        }
+
+        .item 
+        {
+            height:80px;
+            width:200px;
+            border:2px solid;
+        }
+
+        .item1 
+        {
+            background-color: aqua;
+            flex-shrink: 3;
+           
+       
+        }
+        .item2
+        {
+            background-color:brown;
+          
+           
+           
+        }
+        .item3
+        {
+            background-color:blue;
+            font-size: 40px;
+        }
+        .item4
+        {
+            background-color:green;
+        }
+        .item5
+        {
+            background-color:purple;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="item item1">One</div>
+        <div class="item item2">Two</div>
+        <div class="item item3">Three</div>
+        <div class="item item4">Four</div>
+        <div class="item item5">Five</div>
+    </div>
+
+    
+</body>
+</html>

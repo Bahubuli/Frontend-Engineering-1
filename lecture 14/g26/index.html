@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* row-reverse, column-reverse */
+        /* space-evenly v/s space-around */
+        .flex-container
+        {
+            height:500px;
+            background-color: beige;
+            border:2px solid;
+            display: flex;
+            /* flex-direction: row; */
+            /* flex-wrap: wrap; */
+            flex-flow: row wrap;
+            justify-content:space-between;
+            /* align-items: space-between; */
+          
+            align-content:center;
+        }
+
+        .item 
+        {
+            height: 80px;
+            width: 180px;
+            border:1px dashed;
+        }
+
+        .item1 
+        {
+            background-color: aquamarine;
+            /* align-self: flex-start; */
+            /* flex-grow: 1; */
+            /* flex-shrink: 2; */
+        }
+        .item2
+        {
+            background-color: brown;
+            /* flex-grow: 5; */
+            /* flex-shrink: 4; */
+        }
+        .item3 
+        {
+            background-color:green;
+            /* order:-1; */
+        }
+        .item4
+        {
+            background-color: orangered;
+            /* order:-2; */
+        }
+        .item5
+        {
+            background-color:skyblue;
+            /* align-self: end; */
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item item1">One</div>
+        <div class="item item2">Two</div>
+        <div class="item item3">Three</div>
+        <div class="item item4">Four</div>
+        <div class="item item5">Five</div>
+    </div>
+    
+</body>
+</html>
