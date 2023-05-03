@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox 2</title>
+    <style>
+        .container
+        {
+            height:80px;
+            width: 350px;
+            border:2px dashed blue;
+            background-color: bisque;
+            /* display: inline; */
+            display: inline-flex;
+            justify-content: space-between;
+            /* flex-direction: column; */
+
+        }
+
+        .item
+        {
+            height:50px;
+            width:50px;
+            /* flex-basis:180px;
+            flex-grow: 0;
+            flex-shrink: 1; */
+            /* flex: 180px 1 0; */
+            border:2px dotted;
+            background-color: fuchsia;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">One</div>
+        <div class="item">Two</div>
+        <div class="item">Three</div>
+    </div>
+
+    <div class="container">
+        <div class="item">One</div>
+        <div class="item">Two</div>
+        <div class="item">Three</div>
+    </div>
+</body>
+</html>

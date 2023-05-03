@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 2</title>
+
+
+    <style>
+        .container
+        {
+            height:200px;
+            width:300px;
+            border:2px dashed brown;
+            background-color: beige;
+            display: inline-flex;
+            margin-bottom: 20px;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        .item
+        {
+            /* height:50px; */
+            /* width:50px; */
+            /* flex-basis: 50px;
+            flex-grow:0;
+            flex-shrink: 1; */
+            /* shorthand of above 3 */
+            flex: 50px 0 1;
+            background-color: darkorchid;
+            border:2px solid black;
+        }
+
+        span
+        {
+            border:1px solid green;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+<!--
+    <span>this is inline</span>
+    <span>this is inline too</span> -->
+
+
+</body>
+</html>
