@@ -1,0 +1,26 @@
+.redColor
+{
+    color:red;
+}
+
+.blueColor
+{
+    color:blue;
+}
+
+.bigText
+{
+    font-size:30px;
+}
+
+.hide
+{
+    display:none;
+}
+
+.container
+{
+    height:200px;
+    width:300px;
+    border:2px solid black;
+}

@@ -1,0 +1,31 @@
+.redclass
+{
+    color:red;
+}
+
+.blueclass
+{
+    color:blue;
+}
+
+.bigText
+{
+    font-size:30px;
+}
+
+.boldText
+{
+    font-weight: 800;
+}
+
+.hide
+{
+    display: none;
+}
+
+.container 
+{
+    height:200px;
+    width:300px;
+    border:2px solid;
+}
