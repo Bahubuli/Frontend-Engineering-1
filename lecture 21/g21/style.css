@@ -1,0 +1,24 @@
+.container 
+{
+    border:2px solid;
+    height:250px;
+}
+
+.red
+{
+    color:red;
+}
+
+.blue 
+{
+    color:blue;
+}
+.bigFont
+{
+    font-size:30px;
+}
+
+.hide 
+{
+    display: none;
+}
