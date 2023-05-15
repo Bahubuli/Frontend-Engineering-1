@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+
+        .calculator
+        {
+            height:320px;
+            width:250px;
+            border:3px solid;
+            margin:auto;
+            border-radius: 5px;
+        }
+
+        h4
+        {
+            margin: 0;
+            text-align: center;
+        }
+
+        .screen
+        {
+            height:50px;
+            width:230px;
+            border:4px solid #4444;
+            margin:auto;
+            border-radius: 10px;
+            text-align: right;
+            font-size:35px;
+        }
+        .buttons
+        {
+            height:235px;
+            width:230px;
+            border:4px solid #4444;
+            border-radius: 10px;
+            margin:auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        button
+        {
+            font-size:25px;
+            cursor:pointer;
+            border-radius: 10px;
+        }
+        button:active
+        {
+            background-color: darkgrey;
+            scale:0.9
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calculator">
+        <h4>Calculator</h4>
+        <div class="screen"></div>
+        <div class="buttons">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+
+            <button>.</button>
+            <button>0</button>
+            <button>=</button>
+            <button>C</button>
+
+            <button>+</button>
+            <button>-</button>
+            <button>X</button>
+            <button>/</button>
+            <button>%</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

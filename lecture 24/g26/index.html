@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .calculator
+        {
+            height:300px;
+            width:220px;
+            border:2px solid black;
+            margin: auto;
+        }
+        h4
+        {
+            margin: 0;
+            text-align: center;
+        }
+        .screen
+        {
+            height:50px;
+            width:200px;
+            border:3px solid #7777;
+            margin: auto;
+        }
+        .buttons
+        {
+            height:220px;
+            width:200px;
+            border:3px solid #7777;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        button
+        {
+            font-size:25px;
+            cursor:pointer;
+        }
+
+        button:active
+        {
+            background-color: #7777;
+            scale:0.9;
+            border:2px solid #7777;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calculator">
+        <h4>Calculator</h4>
+        <div class="screen"></div>
+        <div class="buttons">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>.</button>
+            <button>0</button>
+            <button>=</button>
+            <button>+</button>
+            <button>-</button>
+            <button>X</button>
+            <button>/</button>
+            <button>%</button>
+            <button>C</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

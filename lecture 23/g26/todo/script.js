@@ -34,9 +34,8 @@ function handleKeyDown(event)
     li.addEventListener("click",function(event)
     {
         console.log(event);
-            event.target.remove();
+        event.target.remove();
     })
-
    }
 }
 
