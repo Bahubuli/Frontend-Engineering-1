@@ -1,0 +1,8 @@
+div
+{
+    border:2px solid;
+    height:60px;
+    width: 60px;
+    background-color: coral;
+    position:relative;
+}
