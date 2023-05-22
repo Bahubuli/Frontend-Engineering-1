@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+      body
+      {
+        perspective: 200px;
+      }
+      section
+      {
+        height:200px;
+        width: 200px;
+        border:2px solid;
+        margin: auto;
+        position: relative;
+        transition-property: transform;
+        transition-duration: 2s;
+        transform-style: preserve-3d;
+      }
+      .side-a,
+      .side-b
+      {
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        backface-visibility: hidden;
+      }
+      .side-a
+      {
+        background-color: skyblue;
+        z-index: 2;
+      }
+      .side-b
+      {
+        background-color: greenyellow;
+        z-index: 1;
+        transform: rotateY(180deg);
+      }
+      section:hover
+      {
+        transform: rotateY(180deg);
+      }
+      img
+      {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="side-a">
+            <img src="https://images.unsplash.com/photo-1684410009281-160c97782efd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=470&q=80">
+        </div>
+        <div class="side-b">
+            <h1>This is A good image</h1>
+            <p>this image was picked from unsplash</p>
+        </div>
+    </section>
+
+</body>
+</html>
