@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .first
+        {
+            height:100px;
+            width: 100px;
+            border:2px solid gray;
+            background-color: coral;
+            margin: auto;
+            /* transition-property: border-radius,background-color; */
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 1s;
+            /* transition-timing-function:ease-in ; */
+        }
+
+        .first:hover
+        {
+            border-radius: 50%;
+            background-color: blue;
+            height:200px;
+            width: 200px;
+        }
+
+        /* -------------------------------- */
+
+        section
+        {
+            height:350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border:2px solid #7777;
+        }
+        section:hover div
+        {
+            margin-left: 1000px;
+        }
+        div
+        {
+            height: 70px;
+            width: 70px;
+            border:3px solid #5555;
+            transition-property: margin-left;
+            transition-duration: 3s;
+        }
+        div:nth-child(1)
+        {
+            background-color: coral;
+            transition-timing-function: ease;
+
+        }
+        div:nth-child(2)
+        {
+            background-color: grey;
+            transition-timing-function: ease-in;
+        }
+        div:nth-child(3)
+        {
+            background-color: green;
+            transition-timing-function: ease-out;
+        }
+        div:nth-child(4)
+        {
+            background-color: blueviolet;
+            /* transition-timing-function: steps(4); */
+            transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="first"></div> -->
+<!-- ---------------------------------------- -->
+
+    <section>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

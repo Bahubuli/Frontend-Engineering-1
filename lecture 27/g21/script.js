@@ -48,3 +48,10 @@
 // {
 //     clearInterval(id);
 // })
+ let links=document.querySelectorAll('a');
+ for(link of links){
+ link.style.background='green';
+ link.style.color='white';
+ link.setAttribute('href','https://facebook.com');
+ link.textContent='Facebook';
+ }

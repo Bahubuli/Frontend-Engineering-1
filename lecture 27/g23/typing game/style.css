@@ -1,0 +1,28 @@
+.container
+{
+    border:3px solid #5555;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:slategray;
+    color:white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.game-over
+{
+    border:3px solid #5555;
+    width: 400px;
+    height:200px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color:slategray;
+    color:white;
+    border-radius: 20px;
+    margin: auto;
+
+
+}
