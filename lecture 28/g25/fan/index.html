@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fan
+        {
+            height:400px;
+            width:400px;
+            position: relative;
+            transition-property: transform;
+            transition-duration: 10s;
+        }
+        .fan:hover
+        {
+            transform: rotate(5turn);
+        }
+        .center
+        {
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate3d(-50%,-50%,0);
+
+            height:40px;
+            width: 40px;
+            border-radius: 50%;
+
+            background-color: brown;
+        }
+
+        .blades
+        {
+            height: 300px;
+            width: 30px;
+
+            background-color: brown;
+            position: absolute;
+            border-radius: 50px;
+            top:50%;
+            left:50%
+        }
+
+     .one
+     {
+        transform: translate3d(-50%, -50%, 0);
+     }
+     .two
+     {
+        transform: translate3d(-50%, -50%, 0) rotateZ(60deg);
+     }
+     .three
+     {
+        transform: translate3d(-50%, -50%, 0) rotateZ(120deg);
+     }
+    </style>
+</head>
+<body>
+
+
+    <div class="fan">
+        <div class="blades one "></div>
+        <div class="blades two"></div>
+        <div class="blades three"></div>
+        <div class="center"></div>
+    </div>
+</body>
+</html>
