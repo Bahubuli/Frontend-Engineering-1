@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating card</title>
+
+    <style>
+
+    body
+    {
+        perspective: 400px;
+    }
+    section
+    {
+         border:2px solid;
+         height: 300px;
+         width: 300px;
+         margin: auto;
+         position: relative;
+         transition-property: transform;
+         transition-duration: 2s;
+         margin-top:50px;
+         transform-style: preserve-3d;
+
+    }
+    section:hover
+    {
+        transform: rotateY(180deg);
+    }
+    .side-a,
+    .side-b
+    {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+    }
+    .side-a
+    {
+        background-color: gold;
+        z-index: 2;
+    }
+    .side-b
+    {
+        background-color: coral;
+        z-index: 1;
+        transform: rotateY(180deg);
+    }
+    img
+    {
+        height:100%;
+        width:100%;
+    }
+    </style>
+</head>
+<body>
+
+    <section>
+     <div class="side-a">
+        <img src="https://images.unsplash.com/photo-1684749841085-f144067c42ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80">
+     </div>
+     <div class="side-b">
+        <h1>This is a good image</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla.</p>
+     </div>
+    </section>
+
+</body>
+</html>
