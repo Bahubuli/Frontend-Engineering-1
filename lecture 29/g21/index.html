@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height:40px;
+            width: 40px;
+            border:2px solid;
+            background-color: aqua;
+            border-radius: 10px;
+            animation-name: kuchhbhi;
+            animation-duration: 4s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 3;
+            animation-fill-mode: forwards;
+            animation-direction:alternate;
+            animation-timing-function: ease-in;
+        }
+
+
+        div:hover
+        {
+            animation-play-state: paused;
+        }
+        @keyframes kuchhbhi {
+
+         20%
+         {
+            width:100px;
+            background-color: coral;
+         }
+         40%
+         {
+            width: 300px;
+            background-color: greenyellow;
+         }
+
+         70%
+         {
+            width: 500px;
+            background-color: magenta;
+         }
+         100%
+         {
+            width: 700px;
+            background-color: lightseagreen;
+         }
+
+         /* from
+         {
+            width:50px;
+         }
+         to
+         {
+            width: 700px;
+         } */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div></div>
+</body>
+</html>
