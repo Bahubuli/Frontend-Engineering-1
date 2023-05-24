@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading circle</title>
+    <style>
+        body
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        div
+        {
+            height:40px;
+            width: 40px;
+            border:2px solid;
+            border-left:7px solid magenta;
+            border-right:7px solid blue;
+            border-top:7px solid red;
+            border-bottom:7px solid green;
+            border-radius: 50%;
+            animation-name: ghumja;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            /* animation-direction: alternate; */
+        }
+
+        @keyframes ghumja {
+            100%
+            {
+                transform: rotateZ(360deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+
+    </div>
+
+</body>
+</html>
