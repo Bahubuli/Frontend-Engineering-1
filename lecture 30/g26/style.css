@@ -1,0 +1,17 @@
+:root
+{
+    --perimary-color:#ee9b00;
+    --secondary-color:#f35b04;
+    --myborder:3px dashed blue;
+}
+
+h1
+{
+    color:var(--perimary-color);
+    border:var(--myborder);
+}
+
+h3
+{
+    color:var(--secondary-color)
+}
